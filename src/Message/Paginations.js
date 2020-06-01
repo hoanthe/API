@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Pagination, PaginationItem, PaginationLink, Card} from 'reactstrap';
+import { Pagination, PaginationItem, PaginationLink} from 'reactstrap';
 
 class Paginations extends Component {
   render() {
     return (
-      <Card className="w-auto">
+      <div className="w-auto m-auto">
           <Pagination className="m-auto " style = {{marginBottom: "0"}}>
             <PaginationItem disabled>
               <PaginationLink previous tag="button" />
@@ -38,7 +38,7 @@ class Paginations extends Component {
               <PaginationLink next tag="button" />
             </PaginationItem>
           </Pagination>
-      </Card>
+      </div>
     )
   }
 }
