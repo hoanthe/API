@@ -39,12 +39,11 @@ class Chart extends Component {
                         <CardArrow className="border-success">
                             <Button color="success" block><i className="icon-calendar"></i> STEP 02</Button>
                             <p>
-                                Select and click those clickable yellow and whites bozes depending on the time you wish
-                                Be sure that you are on the <span className="bg-success">Open</span>, <span className="bg-success">Open</span>, and <span className="bg-success">Open</span> tab.
+                                Select and click those clickable yellow and white boxes depending on the time you wish to conduct lessons under the <span className="bg-success">Morning</span>, <span className="bg-success">Afternoon</span>, and <span className="bg-success">Evening </span> tab.
                             </p>
                             <p className="tip tip-info">
-                                <i className="icon-user icons font-sm mt-4 d-inline"></i>
-                                <strong>Note:</strong> Previously 'CLOSED' 204 can only be re-opened</p>
+                                <i className="icon-info"></i>
+                                <strong>Note:</strong> You can open lesson schedule 3 weeks ahead of time.</p>
                             <div className="text-center">
                                 <Button color="primary"><i className="icon-home"></i> View Image</Button>
                             </div>
@@ -56,10 +55,8 @@ class Chart extends Component {
                         <CardArrow className="border-success">
                             <Button color="success" block><i className="icon-calendar"></i> STEP 03</Button>
                             <p>
-                                Select and click those clickable yellow and whites bozes depending on the time you wish
-                                Be sure that you are on the <span className="bg-success">Open</span>, <span className="bg-success">Open</span>, and <span className="bg-success">Open</span> tab.
+                                After selecting timeslots, click the <Button sm color="success">Open Schedule</Button> button and click <Button color="success">Confirm</Button>. Be sure to click<Button color="success">Open Schedule </Button>button first before navigating to another week.
                             </p>
-
                             <div className="text-center">
                                 <Button color="primary"><i className="icon-home"></i> View Image</Button>
                             </div>

@@ -19,18 +19,10 @@ class Chart extends Component {
                         </CardArrow>
                     </Col>
                 </Row>
-                <Row className="d-flex justify-content-center">
-                    <Col sm={4}>
-                        <CardArrow className="border-success">
-                            <Button color="success" block><i className="icon-calendar"></i> STEP 01</Button>
-                            <p>
-                                Go to<br />
-                                <Link to="">Schedule > Manage Schedule Page.</Link><br />
-                                Be sure that you are on the <span className="bg-success">Open</span> tab.
-                            </p>
-                            <div className="text-center">
-                                <Button color="primary"><i className="icon-home"></i> View Image</Button>
-                            </div>
+                <Row>
+                    <Col>
+                        <CardArrow className="border-0 p-0" typeArrow="two-arrows">
+                            <Button color="primary" block>Did the student answer your call?</Button>
                         </CardArrow>
                     </Col>
                 </Row>
